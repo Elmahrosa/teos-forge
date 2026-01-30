@@ -48,7 +48,7 @@ International Civic Blockchain Constitution (ICBC)
           Governance Frameworks
                     ↓
         Compliance & Execution Systems
-````
+```
 
 ### Canonical References (Single Source of Truth)
 
@@ -114,7 +114,7 @@ TEOS-FORGE governs the following domains:
 
 ---
 
-## ⚔ Core Principles
+## ⚔️ Core Principles
 
 1. Constitution before Code
 2. Governance before Automation
@@ -172,5 +172,3 @@ This repository is governed **exclusively** by the
 
 </div>
 ```
-
----
