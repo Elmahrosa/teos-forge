@@ -1,0 +1,10 @@
+{
+  "timeout": "20s",
+  "retryOn429": true,
+  "retryCount": 2,
+  "fallbackRetryDelay": "10s",
+  "ignorePatterns": [
+    { "pattern": "^https://github\\.com/.+/blob/.+" },
+    { "pattern": "^mailto:" }
+  ]
+}
