@@ -1,4 +1,3 @@
-
 <div align="center">
 
 # ⚖️ TEOS-FORGE
@@ -18,6 +17,13 @@ _Stewardship before scale._
 </div>
 
 ---
+> ⚖️ **Governance Notice**
+>
+> This repository is governed by the  
+> **International Civic Blockchain Constitution (ICBC)**  
+> and operates under **TEOS Sovereign Governance**.
+>
+> Code execution is valid only within constitutional authority.
 
 ## 🏛 Repository Standing
 
