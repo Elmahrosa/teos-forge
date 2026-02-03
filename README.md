@@ -70,3 +70,31 @@ Authority in TEOS flows **downward only**. Execution never creates legitimacy; i
 4. Compliance-Enforced Systems (AI-Guard)
       ↓
 5. Sovereign APIs & Civic Services
+
+```
+
+---
+
+## ⚖️ License & Enforcement
+
+This repository is governed by the **TEOS Egypt Sovereign License (TESL)**.
+
+* **Status:** Institutional Access • Source-Available for Audit.
+* **Rights Holder:** Elmahrosa International.
+* **AI Governance:** AI systems within the Forge are advisory only; final ratification requires human institutional credentials.
+
+---
+
+<div align="center">
+
+**Chief Architect:** Ayman Seif
+
+**Authority:** Elmahrosa International
+
+[Institutional Support](mailto:ayman@teosegypt.com) | [Sovereign Infrastructure](https://teosegypt.com)
+
+*“Governance forged in Egypt. Engineered for Nations. Audited by the World.”*
+
+</div>
+
+```
