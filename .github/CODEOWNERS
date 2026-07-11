@@ -1,1 +1,3 @@
-@Elmahrosa
+# TEOS Security CODEOWNERS — Phase 0
+* @Elmahrosa/teos-security @Elmahrosa/teos-platform @Elmahrosa/elmahrosa-exec
+SECURITY.md @Elmahrosa/teos-security
