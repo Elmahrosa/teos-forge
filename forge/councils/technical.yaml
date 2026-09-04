@@ -1,0 +1,11 @@
+id: technical
+name: Technical Council
+description: Reviews code, tooling, protocol, and deployment proposals.
+quorum_ratio: 0.5
+majority: simple
+scope:
+  - code
+  - tooling
+  - protocol
+  - deployment
+members: []

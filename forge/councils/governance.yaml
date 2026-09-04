@@ -1,0 +1,10 @@
+id: governance
+name: Governance Council
+description: Reviews governance, membership, and lifecycle-rule proposals.
+quorum_ratio: 0.5
+majority: simple
+scope:
+  - governance
+  - membership
+  - lifecycle
+members: []

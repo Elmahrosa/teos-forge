@@ -1,0 +1,12 @@
+id: treasury
+name: Treasury & Emissions Council
+description: Reviews treasury, emission, token, mining, and value-flow proposals.
+quorum_ratio: 0.5
+majority: simple
+scope:
+  - treasury
+  - emission
+  - token
+  - mining
+  - value-flow
+members: []

@@ -1,0 +1,10 @@
+id: compliance
+name: Compliance Council
+description: Reviews compliance, regulatory, and institutional-adoption proposals.
+quorum_ratio: 0.5
+majority: simple
+scope:
+  - compliance
+  - regulatory
+  - institutional
+members: []

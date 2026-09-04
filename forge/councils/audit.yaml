@@ -1,0 +1,11 @@
+id: audit
+name: Audit Council
+description: Reviews audit, security, release, and forensic-evidence proposals.
+quorum_ratio: 0.5
+majority: simple
+scope:
+  - audit
+  - security
+  - release
+  - forensic
+members: []

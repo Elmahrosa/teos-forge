@@ -1,0 +1,13 @@
+{
+  "name": "@elmahrosa/teos-forge-engines",
+  "version": "0.1.0",
+  "description": "TEOS Forge governance engines — council, proposal lifecycle, ratification, audit chain",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test \"test/*.test.js\""
+  },
+  "dependencies": {
+    "yaml": "^2.5.0"
+  }
+}

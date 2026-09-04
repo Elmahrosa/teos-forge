@@ -1,0 +1,13 @@
+id: test-governance
+name: Test Governance Council
+description: Fixture council used only by the test suite to validate engine logic.
+quorum_ratio: 0.5
+majority: simple
+scope:
+  - governance
+  - membership
+members:
+  - { id: member-1, verified: true }
+  - { id: member-2, verified: true }
+  - { id: member-3, verified: true }
+  - { id: member-4, verified: true }
