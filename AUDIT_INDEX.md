@@ -62,12 +62,38 @@ enforces → Code executes. Nothing more.
 
 ## 6. How to verify
 
+Every command below is a **real** subcommand of the live CLI
+(`forge/src/index.js` `run()`). Run from `forge/`.
+
 ```bash
-cd forge
+# 1. Engine correctness: all tests pass
 node --test "test/*.test.js"        # 26 tests, all pass
+
+# 2. Governance status summary (gate MUST be BLOCKED)
 node cli/bin/teos.js status         # production_gate: BLOCKED, councils 0/5
-node cli/bin/teos.js verify         # audit chain valid, entries 0
+
+# 3. All five councils, members []
+node cli/bin/teos.js councils
+
+# 4. A single council (members/quorum/scope)
+node cli/bin/teos.js council technical
+
+# 5. Full audit log (empty chain — 0 entries)
+node cli/bin/teos.js audit
+
+# 6. Audit chain integrity + entry count
+node cli/bin/teos.js verify         # { valid: true, entries: 0, tampered: [] }
+
+# 7. A proposal by id (only existing ids; there is no create subcommand)
+node cli/bin/teos.js proposal <id>
 ```
+
+> **Do not run or document these — they are NOT part of this CLI** and only
+> exist in a divergent, never-pushed checkout:
+> `council:list`, `proposal:list`, `proposal:create`, `audit:verify`,
+> `audit:tail`, `audit:hash`. The real subcommands are `councils`,
+> `council <id>`, `audit`, `verify`, `proposal <id>`, `status`. Proposals are
+> created via the engine API (`ProposalEngine.create`), not a CLI command.
 
 ---
 
@@ -81,10 +107,12 @@ they are not evidence and must not be referenced as canonical:
 - `ERT_MINING_POLICY_PROPOSAL.md`, `ERT_ONCHAIN_FACTS.md`
 - `IMPLEMENTATION_SUMMARY.md` (divergent-copy variant)
 - Any event names such as `VOTE_REJECTED` / `PROPOSAL_REJECTED`
+- CLI subcommands `council:list`, `proposal:list`, `proposal:create`,
+  `audit:verify`, `audit:tail`, `audit:hash` (they do not exist in this CLI)
 
 "Phase 1 locked" status is **not** asserted. The evidence index records what the
 repo proves today; council population and any claim of phase completion remain
 future, governance-ratified events.
 
 ---
-*Index reflects `origin/main` at `cb913c3`.*
+*Index reflects `origin/main` (`cb913c3` engines, docs through `4286679`).*
