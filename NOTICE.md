@@ -9,7 +9,7 @@ into enforceable governance rules and lifecycle controls.
 ## Constitutional Authority
 
 - **International Civic Blockchain Constitution**  
-  https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution
+  https://github.com/Elmahrosa/teos-international-civic-blockchain-constitution
 
 This constitution is the **single source of governance legitimacy**.
 
@@ -27,7 +27,7 @@ This repository is governed exclusively by the
 **TEOS Egypt Sovereign License (TESL)**.
 
 - **Canonical TESL:**  
-  https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution/blob/main/LICENSE
+  https://github.com/Elmahrosa/teos-international-civic-blockchain-constitution/blob/main/LICENSE.md
 
 If any discrepancy exists, the canonical TESL prevails.
 
