@@ -19,6 +19,18 @@
 
 ---
 
+## 📋 Project Board
+
+**TEOS Unified Governance Board** (org-level, tracks this repo, the Academy, and ERT Token):
+https://github.com/orgs/Elmahrosa/projects/9
+
+The board is a project-management/tracking layer only. It does **not** merge or
+couple the three repositories — they remain independent with separate histories,
+CI, and access control. Repository-specific status and disclaimers live here in
+this README; the board reflects current state but never replaces it.
+
+---
+
 ## 🏛️ Strategic Standing
 **TEOS-FORGE** is the "Parliamentary Engine" of the TEOS Sovereign Stack. It defines and enforces the **governance lifecycle** for all civic modules, ensuring that automated systems never operate outside the boundaries of institutional authority.
 
